@@ -7,7 +7,7 @@
             Console.WriteLine("Welcome");
             Console.WriteLine("A. Hello World with static field");
             Console.WriteLine("B. Hello World without static field");
-            Console.WriteLine("C. Arrays");
+            Console.WriteLine("C. User Input");
             Console.Write("Choose a letter to continue: ");
             //User input: Ep3
             //string option=Console.ReadLine();
@@ -34,6 +34,11 @@
                 //Ep14(9:48)
             }
             else if (option == "C")
+            {
+                UserInput.userInputLesson();
+                //Ep14(9:48)
+            }
+            else if (option == "X")
             {
                 Arrays.ArraysLesson();
             }
