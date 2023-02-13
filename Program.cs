@@ -9,6 +9,7 @@
             Console.WriteLine("B. Hello World without static field");
             Console.WriteLine("C. User Input");
             Console.WriteLine("D. Datatype Conversion");
+            Console.WriteLine("E. Arrays");
             Console.Write("Choose a letter to continue: ");
             //User input: Ep3
             //string option=Console.ReadLine();
@@ -44,7 +45,7 @@
                 DatatypeConversion.DatatypeConversionLesson();
                 //Ep14(9:48)
             }
-            else if (option == "X")
+            else if (option == "E")
             {
                 Arrays.ArraysLesson();
             }
