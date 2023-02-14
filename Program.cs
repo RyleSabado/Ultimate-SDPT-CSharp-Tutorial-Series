@@ -54,6 +54,10 @@
             {
                 ConditionalStatements.ConditionalStatementsLesson();
             }
+            else if (option == "G")
+            {
+                SwitchStatements.SwitchStatementsLesson();
+            }
         }
     }
 }
