@@ -10,9 +10,10 @@
             Console.WriteLine("C. User Input");
             Console.WriteLine("D. Datatype Conversion");
             Console.WriteLine("E. Arrays");
-            Console.WriteLine("F. Conditional Statements");
+            Console.WriteLine("F. Conditional Statements"); //Also contains lesson about ignoring case
             Console.WriteLine("G. Switch Statements");
-            Console.WriteLine("H. While Loopss");
+            Console.WriteLine("H. While Loops");
+            Console.WriteLine("I. For Loops");
             Console.Write("Choose a letter to continue: ");
             //User input: Ep3
             //string option=Console.ReadLine();
@@ -63,6 +64,10 @@
             else if (option == "H")
             {
                 WhileLoops.WhileLoopsLesson();
+            }
+            else if (option == "I")
+            {
+                ForLoop.ForLoopLesson();
             }
             else
             {
