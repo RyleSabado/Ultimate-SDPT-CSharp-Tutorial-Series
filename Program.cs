@@ -11,6 +11,8 @@
             Console.WriteLine("D. Datatype Conversion");
             Console.WriteLine("E. Arrays");
             Console.WriteLine("F. Conditional Statements");
+            Console.WriteLine("G. Switch Statements");
+            Console.WriteLine("H. While Loopss");
             Console.Write("Choose a letter to continue: ");
             //User input: Ep3
             //string option=Console.ReadLine();
@@ -57,6 +59,14 @@
             else if (option == "G")
             {
                 SwitchStatements.SwitchStatementsLesson();
+            }
+            else if (option == "H")
+            {
+                WhileLoops.WhileLoopsLesson();
+            }
+            else
+            {
+                Console.WriteLine("Wrong Hole");
             }
         }
     }
