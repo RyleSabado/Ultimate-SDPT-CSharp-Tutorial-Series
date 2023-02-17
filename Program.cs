@@ -14,6 +14,7 @@
             Console.WriteLine("G. Switch Statements");
             Console.WriteLine("H. While Loops");
             Console.WriteLine("I. For Loops");
+            Console.WriteLine("J. For Each Loops");
             Console.Write("Choose a letter to continue: ");
             //User input: Ep3
             //string option=Console.ReadLine();
@@ -68,6 +69,10 @@
             else if (option == "I")
             {
                 ForLoop.ForLoopLesson();
+            }
+            else if (option == "J")
+            {
+                ForEach.ForEachLesson();
             }
             else
             {
