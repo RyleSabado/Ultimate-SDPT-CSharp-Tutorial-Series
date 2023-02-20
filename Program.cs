@@ -85,6 +85,14 @@
             {
                 Methods.MethodsLesson();
             }
+            else if (option == "M")
+            {
+                Classes.ClassesLesson();
+            }
+            else if (option == "N")
+            {
+                Constructors.ConstructorsLesson();
+            }
             else
             {
                 Console.WriteLine("Wrong Hole");
