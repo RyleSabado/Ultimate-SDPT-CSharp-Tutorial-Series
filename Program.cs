@@ -14,8 +14,10 @@
             Console.WriteLine("G. Switch Statements");
             Console.WriteLine("H. While Loops");
             Console.WriteLine("I. For Loops");
-            Console.WriteLine("J. For Each Loops");
+            //11 Also contains summation of numbers in array
+            Console.WriteLine("J. For Each Loops"); 
             Console.WriteLine("K. 2D Arrays + Nested Loops");
+            Console.WriteLine("L. Methods");
             Console.Write("Choose a letter to continue: ");
             //User input: Ep3
             //string option=Console.ReadLine();
@@ -78,6 +80,10 @@
             else if (option == "K")
             {
                 _2DArray._2DArrayLesson();
+            }
+            else if (option == "L")
+            {
+                Methods.MethodsLesson();
             }
             else
             {
