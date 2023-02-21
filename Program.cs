@@ -18,6 +18,7 @@
             Console.WriteLine("J. For Each Loops"); 
             Console.WriteLine("K. 2D Arrays + Nested Loops");
             Console.WriteLine("L. Methods");
+            Console.WriteLine("Q. Encapsulation");
             Console.Write("Choose a letter to continue: ");
             //User input: Ep3
             //string option=Console.ReadLine();
@@ -101,6 +102,7 @@
             {
                 ObjectMethods.ObjectMethodsLesson();
             }
+            else if (option == "Q") Encapsulation.EncapsulationLesson();
             else
             {
                 Console.WriteLine("Wrong Hole");
