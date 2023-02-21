@@ -43,7 +43,7 @@ namespace Ultimate_SDPT_CSharp_Tutorial_Series
         //Attributes
         public string firstName;
         public string lastName;
-        public char sex;
-        public int age;
+        //public char sex;
+        //public int age;
     }
 }

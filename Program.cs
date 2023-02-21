@@ -93,6 +93,14 @@
             {
                 Constructors.ConstructorsLesson();
             }
+            else if (option == "O")
+            {
+                Constructors.ConstructorsLesson();
+            }
+            else if (option == "P")
+            {
+                ObjectMethods.ObjectMethodsLesson();
+            }
             else
             {
                 Console.WriteLine("Wrong Hole");
