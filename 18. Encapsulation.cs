@@ -77,7 +77,7 @@ namespace Ultimate_SDPT_CSharp_Tutorial_Series
         //Automatic Property
         public int userID
         {
-            get; //you cant remove get property in automatic property
+            get; //you cant remove get property in automatic property   
             set; //Disadvantage: you can't set criteria for set
         }
         public string userName { get; set; }
