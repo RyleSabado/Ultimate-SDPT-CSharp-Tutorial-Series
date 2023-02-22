@@ -21,6 +21,7 @@
             Console.WriteLine("Q. Encapsulation");
             Console.WriteLine("R. Overloading Methods");
             Console.WriteLine("S. Inheritance");
+            Console.WriteLine("T. Inheritance");
             Console.Write("Choose a letter to continue: ");
             //User input: Ep3
             //string option=Console.ReadLine();
@@ -107,6 +108,7 @@
             else if (option == "Q") Encapsulation.EncapsulationLesson();
             else if (option == "R") OverloadingContructors.OverloadingContructorsLesson();
             else if (option == "S") Inheritance.InheritanceLesson();
+            else if (option == "T") Polymorphism.PolymorphismLesson();
             else
             {
                 Console.WriteLine("Wrong Hole");
