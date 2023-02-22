@@ -111,7 +111,7 @@
             else if (option == "T") Polymorphism.PolymorphismLesson();
             else if (option == "U") Abstraction.AbstractionLesson();
             else if (option == "V") Interfaces.InterfacesLesson();
-            else if (option == "W") Interfaces.InterfacesLesson();
+            else if (option == "W") ArrayObjects.ArrayObjectsLesson();
             else
             {
                 Console.WriteLine("Wrong Hole");
