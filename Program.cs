@@ -109,6 +109,8 @@
             else if (option == "R") OverloadingContructors.OverloadingContructorsLesson();
             else if (option == "S") Inheritance.InheritanceLesson();
             else if (option == "T") Polymorphism.PolymorphismLesson();
+            else if (option == "U") Abstraction.AbstractionLesson();
+            else if (option == "V") Polymorphism.PolymorphismLesson();
             else
             {
                 Console.WriteLine("Wrong Hole");
